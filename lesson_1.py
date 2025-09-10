@@ -67,5 +67,3 @@
 # b = 'eggs'
 # c = a + b
 # print(c)
-
-v3
