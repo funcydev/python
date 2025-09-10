@@ -1,7 +1,6 @@
 '''
 1) Напишите программу, которая спрашивает имя пользователя и затем приветствует его
 '''
-from xxsubtype import spamdict
 
 # name = input("Enter your name: ")
 # print('Hello,', name)
