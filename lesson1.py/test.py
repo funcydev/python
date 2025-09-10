@@ -1,3 +1,4 @@
+#1
 # name = input("What is your name?: ")
 # print(f"Hello {name}")
 #
@@ -25,19 +26,48 @@
 # #print(num1 + num2)
 # print(f'{num1}+{num2}={num1+num2}')
 
-result1 = 5 + 3
-result2 = 5 - 3
-result3 = 5 * 3
-result4 = 5 / 3
-result8 = 5 % 3    #ostatok ot deleniya
-result5 = 5 ** 3
-result6 = 5 ** 0.5
-result7 = 10 // 3
-print(type(result4))
-print(int(result4))
+# result1 = 5 + 3
+# result2 = 5 - 3
+# result3 = 5 * 3
+# result4 = 5 / 3
+# result8 = 5 % 3    #ostatok ot deleniya
+# result5 = 5 ** 3
+# result6 = 5 ** 0.5
+# result7 = 10 // 3
+# print(type(result4))
+# print(int(result4))
+#
+# print(f' result1 = {result1}\n result2 = {result2}\n result3 = {result3} \n result4 = {result4} \n result5 = {result5} \n result6 = {result6} \n result7 = {result7} \n result8 = {result8} ')
+#
+# a = 1
+# a = a + 1
+# print(a)
 
-print(f' result1 = {result1}\n result2 = {result2}\n result3 = {result3} \n result4 = {result4} \n result5 = {result5} \n result6 = {result6} \n result7 = {result7} \n result8 = {result8} ')
 
-a = 1
-a = a + 1
-print(a)
+#2
+string1 = 'i love python'
+# print(type(string1))
+# print(string1[0])
+# print(string1[4])
+# print(string1[-1])
+# ###[START:STOP:STEP]
+# print(string1[2:6])
+# print(string1[::-1])
+# print(string1[6::-1])
+# string2 = string1.upper()
+# print(string2)
+# string3 = string2.lower()
+# print(string3)
+# string4 = string3.capitalize()
+# print(string4)
+# # print(string4.islower())
+# # print(string4.isupper())
+# string5 = 'I Love Python'
+# string6 = '7'
+# print(string5.istitle())
+# print(string6.isdigit())
+a = input('type number one: ')
+b = input('type number two: ')
+print(a.isdigit() and b.isdigit())
+if a.isdigit() and b.isdigit():
+    print(int(a) + int(b))
