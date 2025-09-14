@@ -46,7 +46,12 @@ str3 = ' (( pYthOn - :+   '
 string1 = 'I love python'
 string2 = 'Hello my dear friend'
 string3 = 'полиморфизм'
-print(string1[-1:])
+print(string1[::-1])
+print(string2[6:8], string2[14:])
+string4 = (string3[0], string3[2])
+
+
+
 '''
 5)
 '''
